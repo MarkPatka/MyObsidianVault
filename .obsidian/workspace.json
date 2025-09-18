@@ -1,0 +1,197 @@
+{
+  "main": {
+    "id": "9512b1d8dfc53f5c",
+    "type": "split",
+    "children": [
+      {
+        "id": "62d1ba1e92ea996e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7026d5daff2c9ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Backend/Message Brokers/Kafka/4.3. Consumers (Потребители).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4.3. Consumers (Потребители)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "60181b0bbaf3fc7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "a85e23234e7c57a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22dee5475490416b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5a413c5b5d35fb7f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5e75a6c3a9534ea9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3cba325e6f24d950",
+    "type": "split",
+    "children": [
+      {
+        "id": "74623cb1d488e538",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2634f865de66b9c9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "de433479ebd54c3e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "4a7b04ea8b67905a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7db6c40a9b21fcfb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "a7026d5daff2c9ed",
+  "lastOpenFiles": [
+    "Backend/Message Brokers/Kafka/4.3. Consumers (Потребители).md",
+    "aaaaaaa.md",
+    "Backend/Message Brokers/Kafka/3. Kafka Key Concepts.md",
+    "Backend/Message Brokers/Kafka/4.6. Segments (Сегменты).md",
+    "Backend/Message Brokers/Kafka/4.5. Partitions (Партиции).md",
+    "Backend/Message Brokers/Kafka/Kafka questions.md",
+    "Backend/Message Brokers/Kafka/4. Kafka Architecture.md",
+    "Backend/Message Brokers/Kafka/4.7. Zookeeper.md",
+    "Backend/Message Brokers/Kafka/1. Kafka Intro.md",
+    "Backend/Message Brokers/Kafka/4.4. Topics (Топики).md",
+    "Backend/Message Brokers/Kafka/5. Links.md",
+    "Backend/Message Brokers/Kafka/4.1. Brokers (Брокеры).md",
+    "Backend/Message Brokers/Kafka/4.2. Producers (Производители).md",
+    "Backend/Message Brokers/Kafka/images/kafka-image-topik-structure.png",
+    "Backend/Message Brokers/Kafka/images/kafka-image-cluster.png",
+    "Backend/Message Brokers/Kafka/2. Kafka Key Tasks and Properties.md",
+    "Backend/Message Brokers/Kafka/images/kafka-image-semantics.png",
+    "CICD",
+    "Backend/Message Brokers/Kafka/images/kafka-image-zookeeper.png",
+    "Backend/Message Brokers/Kafka/images/kafka-image-topics-2.png",
+    "Backend/Message Brokers/Kafka/images/kafka-image-topics.png",
+    "Backend/Message Brokers/Kafka/images/kafka-image-segments-3.png",
+    "Backend/Message Brokers/Kafka/images/kafka-image-segments-2.png",
+    "Backend/Message Brokers/Kafka/images/kafka-image-segments.png",
+    "Backend/Message Brokers/Kafka/images/kafka-image-replication-3.png"
+  ]
+}
