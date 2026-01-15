@@ -21,7 +21,7 @@
 	- Windows (cmd): 
 	  ```for /r %i in (*csproj) do dotnet sln add "%i"```
 	- PowerShell:
-	  ```Get-ChildItem -Recurse -Filter '*.csproj' | ForEach-Object { dotnet sln add $_ }```
+	  `dotnet sln add (ls -r **\*.csproj)`
 	- Linux:
 	  ```dotnet sln add $(find . -name "*.csproj")$```
 	
