@@ -1,0 +1,1 @@
+refactoring.guru/design-patterns/adapter

@@ -122,3 +122,31 @@ stop
 @enduml
 ```
 
+```plantuml
+@startuml
+start
+
+:A;
+
+:B;
+
+if (a1) then (да)
+    :C;
+
+    if (a2) then (да)
+        :D;
+        :E;
+        :F;
+        :G;
+    else (нет)
+        :H;
+    endif
+    :I;
+    :G;
+else (нет)
+    :K;
+    :L;
+endif
+stop
+@enduml
+```
