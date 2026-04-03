@@ -1,5 +1,4 @@
 
-
 | Pattern        | Asynchronous Programming Model                                                                                                                    | Event-based Asynchronous Pattern                                                                                               | Task-based Asynchronous Pattern                                                                                                                                                                        |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Introduced     | .NET 1.0                                                                                                                                          | .NET 2.0                                                                                                                       | .NET 4.0+                                                                                                                                                                                              |
@@ -9,7 +8,7 @@
 | Pros           | • Universal in older .NET Framework  <br>• Low-level control                                                                                      | • Better than APM for UI scenarios  <br>• Progress and cancellation support  <br>• Multiple operations per object              | • Modern, clean syntax  <br>• Compiler support with async/await  <br>• Excellent composability  <br>• Built-in error handling  <br>• Unified cancellation model  <br>• Easy to understand and maintain |
 | Cons           | • Complex callback management  <br>• Difficult error handling  <br>• Poor composability  <br>• Callback hell risk  <br>• No built-in cancellation | • Event handler overhead  <br>• Limited composability  <br>• Inconsistent implementations  <br>• UI thread marshaling required | • Requires .NET 4.0+  <br>• Learning curve for beginners  <br>• Can hide complexity                                                                                                                    |
 | Current Status | Legacy, avoid in new code                                                                                                                         | Legacy, superseded by TAP                                                                                                      | **Recommended** for all new development                                                                                                                                                                |
-## APM (Asynchronous Programming Model) - BeginRead/EndRead
+## APM (Asynchronous Programming Model)
 
 ```csharp
 public class FileReaderAPM
@@ -82,7 +81,7 @@ public class FileReaderAPM
     }
 ```
 
-## EAP (Event-based Asynchronous Pattern) - WebClient
+## EAP (Event-based Asynchronous Pattern) 
 
 ```csharp
     public class FileDownloaderEAP
