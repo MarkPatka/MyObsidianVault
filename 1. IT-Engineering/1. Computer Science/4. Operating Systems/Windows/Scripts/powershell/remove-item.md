@@ -24,7 +24,10 @@ Remove-Item "C:\path\to\file1.txt", "C:\path\to\file2.txt"
 Remove-Item "C:\path\to\*.txt"
 ```
 
-This removes all `.txt` files in the specified directory.
+### Removes all files from current directory with matching extension
+```powershell
+Get-ChildItem -Path . -File -Recurse -Filter '*.lscache' | Remove-Item -Force
+```
 
 ## Useful Parameters
 
